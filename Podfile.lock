@@ -1,0 +1,16 @@
+PODS:
+  - KeepLayout (1.2.2)
+  - Masonry (0.4.0)
+  - UIView+AutoLayout (1.2.0)
+
+DEPENDENCIES:
+  - KeepLayout (~> 1.2.2)
+  - Masonry (~> 0.4.0)
+  - UIView+AutoLayout
+
+SPEC CHECKSUMS:
+  KeepLayout: 0f80364b513a2a4a6183ffe3740706bf861dec16
+  Masonry: d673617c9cbc24aaea90fba20b10e47fd9970a39
+  UIView+AutoLayout: 1bcec87eaa77ffa088dc37e061d25fdead740089
+
+COCOAPODS: 0.29.0
