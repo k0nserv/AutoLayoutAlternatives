@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface HTBaseView : UIView
-
+@property(nonatomic, readonly) UIView *views;
 @end
