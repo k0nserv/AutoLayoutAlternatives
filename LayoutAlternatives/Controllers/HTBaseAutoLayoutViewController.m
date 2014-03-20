@@ -9,17 +9,23 @@
 #import "HTBaseAutoLayoutViewController.h"
 
 @interface HTBaseAutoLayoutViewController ()
-
+@property(nonatomic, strong) Class viewClass;
 @end
 
 @implementation HTBaseAutoLayoutViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+- (instancetype)initWithViewClass:(Class)viewClass {
+    self = [super initWithNibName:nil bundle:nil];
+
     if (self) {
-        // Custom initialization
+        self.viewClass = viewClass;
     }
+
     return self;
+}
+
+- (void)loadView {
+    self.view = [[_viewClass alloc] initWithFrame:[UIScreen mainScreen].bounds];
 }
 
 - (void)viewDidLoad {

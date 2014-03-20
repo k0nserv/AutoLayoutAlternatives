@@ -9,12 +9,15 @@
 #import "HTMainTableViewController.h"
 
 // Controllers
-#import "HTStandardAutoLayoutViewController.h"
-#import "HTUIViewAutoLayoutViewController.h"
-#import "HTKeepLayoutViewController.h"
-#import "HTMasonryViewController.h"
+#import "HTBaseAutoLayoutViewController.h"
 
-static NSString *const kControllerClassKey = @"controllerClass";
+// View
+#import "HTStandardAutoLayoutView.h"
+#import "HTUIViewAutoLayoutView.h"
+#import "HTKeepLayoutView.h"
+#import "HTMasonryView.h"
+
+static NSString *const kViewClass = @"viewClass";
 static NSString *const kNameKey = @"name";
 
 @interface HTMainTableViewController ()
@@ -27,10 +30,10 @@ static NSString *const kNameKey = @"name";
 - (NSArray *)availableControllers {
     if (nil == _availableControllers) {
         _availableControllers = @[
-            @{ kNameKey : @"Standard AutoLayout", kControllerClassKey : [HTStandardAutoLayoutViewController class] },
-            @{ kNameKey : @"Keeplayout", kControllerClassKey : [HTKeepLayoutViewController class] },
-            @{ kNameKey : @"Masonry", kControllerClassKey : [HTMasonryViewController class] },
-            @{ kNameKey : @"UIView + AutoLayout", kControllerClassKey : [HTUIViewAutoLayoutViewController class] }
+            @{ kNameKey : @"Standard AutoLayout", kViewClass : [HTStandardAutoLayoutView class] },
+            @{ kNameKey : @"Keeplayout", kViewClass : [HTKeepLayoutView class] },
+            @{ kNameKey : @"Masonry", kViewClass : [HTMasonryView class] },
+            @{ kNameKey : @"UIView + AutoLayout", kViewClass : [HTUIViewAutoLayoutView class] }
         ];
     }
 
@@ -86,9 +89,9 @@ static NSString *const kNameKey = @"name";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSDictionary *current = self.availableControllers[indexPath.row];
-    Class vcClass = current[kControllerClassKey];
+    Class viewClass = current[kViewClass];
 
-    id newController = [[vcClass alloc] init];
+    id newController = [[HTBaseAutoLayoutViewController alloc] initWithViewClass:viewClass];
 
     [self.navigationController pushViewController:newController animated:YES];
 }

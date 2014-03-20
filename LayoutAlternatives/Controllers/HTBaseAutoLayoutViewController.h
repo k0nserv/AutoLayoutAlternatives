@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HTBaseAutoLayoutViewController : UIViewController
+@class HTBaseView;
 
+@interface HTBaseAutoLayoutViewController : UIViewController
+- (instancetype)initWithViewClass:(Class)viewClass;
 @end

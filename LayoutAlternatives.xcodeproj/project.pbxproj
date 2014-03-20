@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		62EA07C4766847A28338ACD4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC9120EAB7D4F75AEDEDE38 /* libPods.a */; };
+		D6BFDBAA18DB783A00C20532 /* HTBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BFDBA918DB783A00C20532 /* HTBaseView.m */; };
+		D6BFDBAD18DB785E00C20532 /* HTStandardAutoLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BFDBAC18DB785E00C20532 /* HTStandardAutoLayoutView.m */; };
+		D6BFDBB018DB787900C20532 /* HTUIViewAutoLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BFDBAF18DB787900C20532 /* HTUIViewAutoLayoutView.m */; };
+		D6BFDBB318DB788D00C20532 /* HTKeepLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BFDBB218DB788D00C20532 /* HTKeepLayoutView.m */; };
+		D6BFDBB618DB789E00C20532 /* HTMasonryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6BFDBB518DB789E00C20532 /* HTMasonryView.m */; };
 		D6E6DEED18DA521600344FEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6DEEC18DA521600344FEF /* Foundation.framework */; };
 		D6E6DEEF18DA521600344FEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6DEEE18DA521600344FEF /* CoreGraphics.framework */; };
 		D6E6DEF118DA521600344FEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6DEF018DA521600344FEF /* UIKit.framework */; };
@@ -21,11 +26,7 @@
 		D6E6DF1918DA521600344FEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DF1718DA521600344FEF /* InfoPlist.strings */; };
 		D6E6DF1B18DA521600344FEF /* LayoutAlternativesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E6DF1A18DA521600344FEF /* LayoutAlternativesTests.m */; };
 		D6F9E53B18DA570A003A8518 /* HTMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9E53A18DA570A003A8518 /* HTMainTableViewController.m */; };
-		D6F9E53E18DA5793003A8518 /* HTStandardAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9E53D18DA5793003A8518 /* HTStandardAutoLayoutViewController.m */; };
 		D6F9E54118DA59D5003A8518 /* HTBaseAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9E54018DA59D5003A8518 /* HTBaseAutoLayoutViewController.m */; };
-		D6F9E54418DA5A1C003A8518 /* HTKeepLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9E54318DA5A1C003A8518 /* HTKeepLayoutViewController.m */; };
-		D6F9E54718DA5A4A003A8518 /* HTMasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9E54618DA5A4A003A8518 /* HTMasonryViewController.m */; };
-		D6F9E54A18DA5A8F003A8518 /* HTUIViewAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9E54918DA5A8F003A8518 /* HTUIViewAutoLayoutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,16 @@
 /* Begin PBXFileReference section */
 		1EC9120EAB7D4F75AEDEDE38 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5AB6698E4B4B2591CCDDBE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D6BFDBA818DB783A00C20532 /* HTBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBaseView.h; sourceTree = "<group>"; };
+		D6BFDBA918DB783A00C20532 /* HTBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBaseView.m; sourceTree = "<group>"; };
+		D6BFDBAB18DB785E00C20532 /* HTStandardAutoLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTStandardAutoLayoutView.h; sourceTree = "<group>"; };
+		D6BFDBAC18DB785E00C20532 /* HTStandardAutoLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTStandardAutoLayoutView.m; sourceTree = "<group>"; };
+		D6BFDBAE18DB787900C20532 /* HTUIViewAutoLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTUIViewAutoLayoutView.h; sourceTree = "<group>"; };
+		D6BFDBAF18DB787900C20532 /* HTUIViewAutoLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTUIViewAutoLayoutView.m; sourceTree = "<group>"; };
+		D6BFDBB118DB788D00C20532 /* HTKeepLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKeepLayoutView.h; sourceTree = "<group>"; };
+		D6BFDBB218DB788D00C20532 /* HTKeepLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKeepLayoutView.m; sourceTree = "<group>"; };
+		D6BFDBB418DB789E00C20532 /* HTMasonryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMasonryView.h; sourceTree = "<group>"; };
+		D6BFDBB518DB789E00C20532 /* HTMasonryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMasonryView.m; sourceTree = "<group>"; };
 		D6E6DEE918DA521600344FEF /* LayoutAlternatives.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutAlternatives.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E6DEEC18DA521600344FEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D6E6DEEE18DA521600344FEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,16 +70,8 @@
 		D6E6DF1A18DA521600344FEF /* LayoutAlternativesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutAlternativesTests.m; sourceTree = "<group>"; };
 		D6F9E53918DA570A003A8518 /* HTMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMainTableViewController.h; sourceTree = "<group>"; };
 		D6F9E53A18DA570A003A8518 /* HTMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMainTableViewController.m; sourceTree = "<group>"; };
-		D6F9E53C18DA5793003A8518 /* HTStandardAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTStandardAutoLayoutViewController.h; sourceTree = "<group>"; };
-		D6F9E53D18DA5793003A8518 /* HTStandardAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTStandardAutoLayoutViewController.m; sourceTree = "<group>"; };
 		D6F9E53F18DA59D5003A8518 /* HTBaseAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBaseAutoLayoutViewController.h; sourceTree = "<group>"; };
 		D6F9E54018DA59D5003A8518 /* HTBaseAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTBaseAutoLayoutViewController.m; sourceTree = "<group>"; };
-		D6F9E54218DA5A1C003A8518 /* HTKeepLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKeepLayoutViewController.h; sourceTree = "<group>"; };
-		D6F9E54318DA5A1C003A8518 /* HTKeepLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTKeepLayoutViewController.m; sourceTree = "<group>"; };
-		D6F9E54518DA5A4A003A8518 /* HTMasonryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMasonryViewController.h; sourceTree = "<group>"; };
-		D6F9E54618DA5A4A003A8518 /* HTMasonryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMasonryViewController.m; sourceTree = "<group>"; };
-		D6F9E54818DA5A8F003A8518 /* HTUIViewAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTUIViewAutoLayoutViewController.h; sourceTree = "<group>"; };
-		D6F9E54918DA5A8F003A8518 /* HTUIViewAutoLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTUIViewAutoLayoutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6BFDBA718DB782B00C20532 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6BFDBA818DB783A00C20532 /* HTBaseView.h */,
+				D6BFDBA918DB783A00C20532 /* HTBaseView.m */,
+				D6BFDBAB18DB785E00C20532 /* HTStandardAutoLayoutView.h */,
+				D6BFDBAC18DB785E00C20532 /* HTStandardAutoLayoutView.m */,
+				D6BFDBAE18DB787900C20532 /* HTUIViewAutoLayoutView.h */,
+				D6BFDBAF18DB787900C20532 /* HTUIViewAutoLayoutView.m */,
+				D6BFDBB118DB788D00C20532 /* HTKeepLayoutView.h */,
+				D6BFDBB218DB788D00C20532 /* HTKeepLayoutView.m */,
+				D6BFDBB418DB789E00C20532 /* HTMasonryView.h */,
+				D6BFDBB518DB789E00C20532 /* HTMasonryView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D6E6DEE018DA521600344FEF = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +151,7 @@
 		D6E6DEF218DA521600344FEF /* LayoutAlternatives */ = {
 			isa = PBXGroup;
 			children = (
+				D6BFDBA718DB782B00C20532 /* Views */,
 				D6F9E53818DA56FD003A8518 /* Controllers */,
 				D6E6DEFB18DA521600344FEF /* HTAppDelegate.h */,
 				D6E6DEFC18DA521600344FEF /* HTAppDelegate.m */,
@@ -174,16 +195,8 @@
 			children = (
 				D6F9E53918DA570A003A8518 /* HTMainTableViewController.h */,
 				D6F9E53A18DA570A003A8518 /* HTMainTableViewController.m */,
-				D6F9E53C18DA5793003A8518 /* HTStandardAutoLayoutViewController.h */,
-				D6F9E53D18DA5793003A8518 /* HTStandardAutoLayoutViewController.m */,
 				D6F9E53F18DA59D5003A8518 /* HTBaseAutoLayoutViewController.h */,
 				D6F9E54018DA59D5003A8518 /* HTBaseAutoLayoutViewController.m */,
-				D6F9E54218DA5A1C003A8518 /* HTKeepLayoutViewController.h */,
-				D6F9E54318DA5A1C003A8518 /* HTKeepLayoutViewController.m */,
-				D6F9E54518DA5A4A003A8518 /* HTMasonryViewController.h */,
-				D6F9E54618DA5A4A003A8518 /* HTMasonryViewController.m */,
-				D6F9E54818DA5A8F003A8518 /* HTUIViewAutoLayoutViewController.h */,
-				D6F9E54918DA5A8F003A8518 /* HTUIViewAutoLayoutViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -320,14 +333,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F9E54A18DA5A8F003A8518 /* HTUIViewAutoLayoutViewController.m in Sources */,
+				D6BFDBAA18DB783A00C20532 /* HTBaseView.m in Sources */,
+				D6BFDBB018DB787900C20532 /* HTUIViewAutoLayoutView.m in Sources */,
 				D6E6DEFD18DA521600344FEF /* HTAppDelegate.m in Sources */,
 				D6F9E53B18DA570A003A8518 /* HTMainTableViewController.m in Sources */,
-				D6F9E54718DA5A4A003A8518 /* HTMasonryViewController.m in Sources */,
-				D6F9E53E18DA5793003A8518 /* HTStandardAutoLayoutViewController.m in Sources */,
-				D6F9E54418DA5A1C003A8518 /* HTKeepLayoutViewController.m in Sources */,
 				D6F9E54118DA59D5003A8518 /* HTBaseAutoLayoutViewController.m in Sources */,
+				D6BFDBAD18DB785E00C20532 /* HTStandardAutoLayoutView.m in Sources */,
+				D6BFDBB618DB789E00C20532 /* HTMasonryView.m in Sources */,
 				D6E6DEF918DA521600344FEF /* main.m in Sources */,
+				D6BFDBB318DB788D00C20532 /* HTKeepLayoutView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
