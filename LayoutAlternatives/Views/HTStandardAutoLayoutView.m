@@ -14,14 +14,6 @@
 
 @implementation HTStandardAutoLayoutView
 
-- (id)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
-    if (self) {
-        //
-    }
-    return self;
-}
-
 - (void)setup {
     for (UIView *v in self.views) {
         [self addSizeConstraints:v];
