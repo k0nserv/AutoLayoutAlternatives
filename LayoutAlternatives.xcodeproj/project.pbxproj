@@ -25,6 +25,7 @@
 		D6E6DF1118DA521600344FEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E6DEF018DA521600344FEF /* UIKit.framework */; };
 		D6E6DF1918DA521600344FEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6E6DF1718DA521600344FEF /* InfoPlist.strings */; };
 		D6E6DF1B18DA521600344FEF /* LayoutAlternativesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E6DF1A18DA521600344FEF /* LayoutAlternativesTests.m */; };
+		D6F817B019643A3F008CBCAB /* HTAllOrientationNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F817AF19643A3F008CBCAB /* HTAllOrientationNavigationController.m */; };
 		D6F9E53B18DA570A003A8518 /* HTMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9E53A18DA570A003A8518 /* HTMainTableViewController.m */; };
 		D6F9E54118DA59D5003A8518 /* HTBaseAutoLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F9E54018DA59D5003A8518 /* HTBaseAutoLayoutViewController.m */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,8 @@
 		D6E6DF1618DA521600344FEF /* LayoutAlternativesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LayoutAlternativesTests-Info.plist"; sourceTree = "<group>"; };
 		D6E6DF1818DA521600344FEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6E6DF1A18DA521600344FEF /* LayoutAlternativesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutAlternativesTests.m; sourceTree = "<group>"; };
+		D6F817AE19643A3F008CBCAB /* HTAllOrientationNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTAllOrientationNavigationController.h; sourceTree = "<group>"; };
+		D6F817AF19643A3F008CBCAB /* HTAllOrientationNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTAllOrientationNavigationController.m; sourceTree = "<group>"; };
 		D6F9E53918DA570A003A8518 /* HTMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMainTableViewController.h; sourceTree = "<group>"; };
 		D6F9E53A18DA570A003A8518 /* HTMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMainTableViewController.m; sourceTree = "<group>"; };
 		D6F9E53F18DA59D5003A8518 /* HTBaseAutoLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTBaseAutoLayoutViewController.h; sourceTree = "<group>"; };
@@ -197,6 +200,8 @@
 				D6F9E53A18DA570A003A8518 /* HTMainTableViewController.m */,
 				D6F9E53F18DA59D5003A8518 /* HTBaseAutoLayoutViewController.h */,
 				D6F9E54018DA59D5003A8518 /* HTBaseAutoLayoutViewController.m */,
+				D6F817AE19643A3F008CBCAB /* HTAllOrientationNavigationController.h */,
+				D6F817AF19643A3F008CBCAB /* HTAllOrientationNavigationController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -337,6 +342,7 @@
 				D6BFDBB018DB787900C20532 /* HTUIViewAutoLayoutView.m in Sources */,
 				D6E6DEFD18DA521600344FEF /* HTAppDelegate.m in Sources */,
 				D6F9E53B18DA570A003A8518 /* HTMainTableViewController.m in Sources */,
+				D6F817B019643A3F008CBCAB /* HTAllOrientationNavigationController.m in Sources */,
 				D6F9E54118DA59D5003A8518 /* HTBaseAutoLayoutViewController.m in Sources */,
 				D6BFDBAD18DB785E00C20532 /* HTStandardAutoLayoutView.m in Sources */,
 				D6BFDBB618DB789E00C20532 /* HTMasonryView.m in Sources */,

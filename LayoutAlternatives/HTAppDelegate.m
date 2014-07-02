@@ -10,13 +10,17 @@
 
 // Main Controller
 #import "HTMainTableViewController.h"
+// Nav Controller
+#import "HTAllOrientationNavigationController.h"
 
 @implementation HTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     HTMainTableViewController *vc = [HTMainTableViewController new];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    HTAllOrientationNavigationController *nav =
+        [[HTAllOrientationNavigationController alloc] initWithRootViewController:vc];
+    nav.navigationBar.translucent = NO;
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
 
     self.window.rootViewController = nav;
